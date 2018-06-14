@@ -6,7 +6,7 @@ import './header.css';
 export default function Header(props) {
   return (
     <header>
-      <TopNav
+      <NavBar
         onRestartGame={() => props.onRestartGame()}
       />
       <h1>HOT or COLD</h1>
